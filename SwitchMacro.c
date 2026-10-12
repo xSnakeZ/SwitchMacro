@@ -4,12 +4,14 @@
 #include "hardware/timer.h"
 
 #define MAX_PULSES 10
-#define DEFAULT_PULSE_DURATION_US 30000
+#define DEFAULT_PULSE_DURATION_US 40000
 #define LONG_PULSE_DURATION_US 3000000
+//#define LONG_PULSE_DURATION_US 30000
 
-#define MACRO_TIMING_START 31241+1
-#define MACRO_TIMING_SAVEFILE 22268
-#define MACRO_TIMING_OVERWORLD 10046+1
+
+#define MACRO_TIMING_START 31355
+#define MACRO_TIMING_SAVEFILE 26637
+#define MACRO_TIMING_OVERWORLD 7534
 
 #define MACRO_PRESS_1 MACRO_TIMING_START
 #define MACRO_PRESS_2 MACRO_PRESS_1 + MACRO_TIMING_SAVEFILE
@@ -114,8 +116,7 @@ int main() {
     uint pins[] = {2, 3, 4, 5, 6, 7, 10, 11};
     for (int i = 0; i < 8; i++) {
         gpio_init(pins[i]);
-        gpio_set_dir(pins[i], GPIO_OUT);
-        gpio_put(pins[i], 0);
+        gpio_set_dir(pins[i], GPIO_IN);
     }
 
     printf("Ready\n");
