@@ -1,3 +1,5 @@
+ReadMe mit GPT-5.6 Luna generiert
+
 # SwitchMacro
 
 SwitchMacro ist ein kleines Firmware-Projekt für den Raspberry Pi Pico 2 W, das zeitgesteuerte Eingaben automatisiert. Die Idee dahinter: Statt Knöpfe immer wieder manuell zu drücken, kann der Pico vordefinierte Tastendrücke über GPIO auslösen und so ganze Abläufe automatisch wiederholen.
@@ -60,4 +62,11 @@ SwitchMacro soll wiederkehrende Eingaben einfacher und reproduzierbarer machen �
 
 Das Projekt ist ein kleines Experiment rund um Mikrocontroller, präzises Timing und automatisierte Eingaben. Es geht dabei nicht nur darum, Knöpfe automatisch zu drücken, sondern auch darum, herauszufinden, wie zuverlässig sich bestimmte Abläufe im Spiel reproduzieren lassen.
 
-**Hinweis:** Exakte GPIO-Timingwerte garantieren nicht automatisch, dass das Spiel jede Eingabe im gewünschten Frame verarbeitet. Dafür spielen auch der zweite Mikrocontroller und das Timing des Spiels eine Rolle.
+## Impressionen
+
+<img width="600" height="800" alt="Image 2026-10-12 at 21 10 01" src="https://github.com/user-attachments/assets/36fe1fb0-88da-4873-9bdb-29cc405f0bd3" />
+<img width="600" height="800" alt="Image 2026-10-12 at 21 11 01" src="https://github.com/user-attachments/assets/22b5167d-da0c-40bf-864f-8f36ebaf705d" />
+
+
+
+
